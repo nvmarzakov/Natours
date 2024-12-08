@@ -25,5 +25,40 @@
     <body>
         @include('layouts.partials.header')
         @yield('content')
+        {{-- <section class="grid-test">
+            <div class="row-custom">
+                <div class="col-1-of-2">1 of 2</div>
+                <div class="col-1-of-2">1 of 2</div>
+            </div>
+           
+            <div class="row-custom">
+                <div class="col-1-of-3">1 of 3</div>
+                <div class="col-1-of-3">1 of 3</div>
+                <div class="col-1-of-3">1 of 3</div>
+            </div>
+
+            <div class="row-custom">
+                <div class="col-1-of-3">1 of 3</div>
+                <div class="col-2-of-3">2 of 3</div>
+            </div>
+            
+            <div class="row-custom">
+                <div class="col-1-of-4">1 of 4</div>
+                <div class="col-1-of-4">1 of 4</div>
+                <div class="col-1-of-4">1 of 4</div>
+                <div class="col-1-of-4">1 of 4</div>
+            </div>
+
+            <div class="row-custom">
+                <div class="col-1-of-4">1 of 4</div>
+                <div class="col-1-of-4">1 of 4</div>
+                <div class="col-2-of-4">2 of 4</div>
+            </div>
+        
+            <div class="row-custom">
+                <div class="col-1-of-4">1 of 4</div>
+                <div class="col-3-of-4">3 of 4</div>
+            </div>
+        </section> --}}
     </body>
 </html>
