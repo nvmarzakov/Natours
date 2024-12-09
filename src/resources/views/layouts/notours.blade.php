@@ -27,14 +27,30 @@
         
         <main>
             <section class="section-about">
-                <div class="u-center-text u-margin-bottom-8">
+                <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Exciting tours for adventurous people
                     </h2>
                 </div>
                 <div class="row-custom">
                     <div class="col-1-of-2">
-                        Text Content
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            You're going to fall in love with nature
+                        </h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque vitae fugiat deserunt commodi aliquid at reprehenderit voluptate dolorum obcaecati. Eligendi earum magnam ab, ratione a id temporibus cupiditate hic?
+                        </p>
+                        
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            Live adventures like you never have before
+                        </h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid architecto deserunt inventore! Voluptatibus numquam in nam ut quaerat molestias id
+                        </p>
+
+                        <a href="#" class="btn-text">
+                            Learn more &rarr;
+                        </a>
                     </div>
                     <div class="col-1-of-2">
                         Image Composition
