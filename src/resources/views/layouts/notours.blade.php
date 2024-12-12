@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
+        <link rel="stylesheet" href="../../icon-font.css">
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -60,6 +60,60 @@
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section class="section-features"> 
+                <div class="row-custom">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <svg class="feature-box__icon svg-icon">
+                                <use xlink:href="{{ asset('icons/icons.svg#icon-basic-world') }}" fill="url(#icon-gradient)"></use>
+                            </svg>
+                            
+                            <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                            <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque vitae fugiat deserunt commodi aliquid at reprehenderit voluptate dolorum obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <svg class="feature-box__icon svg-icon">
+                                <use xlink:href="{{ asset('icons/icons.svg#icon-compass') }}" fill="url(#icon-gradient)"></use>
+                            </svg>
+                            
+                            <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                            <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque vitae fugiat deserunt commodi aliquid at reprehenderit voluptate dolorum obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <svg class="feature-box__icon svg-icon">
+                                <use xlink:href="{{ asset('icons/icons.svg#icon-map') }}" fill="url(#icon-gradient)"></use>
+                            </svg>
+                            
+                            <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                            <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque vitae fugiat deserunt commodi aliquid at reprehenderit voluptate dolorum obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <svg class="feature-box__icon svg-icon">
+                                <use xlink:href="{{ asset('icons/icons.svg#icon-heart') }}" fill="url(#icon-gradient)"></use>
+                            </svg>
+                            
+                            <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                            <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque vitae fugiat deserunt commodi aliquid at reprehenderit voluptate dolorum obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
         </main>
         {{-- <section class="grid-test">
