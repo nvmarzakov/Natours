@@ -125,7 +125,17 @@
                         <div class="col-1-of-3">
                             <div class="card">
                                 <div class="card__side card__side--front">
-                                    Front
+                                    <div class="card__picture card__picture--1">
+                                        &nbsp;
+                                    </div>
+                                    <h4 class="card__heading">
+                                        <span class="card__headibng-span card__headibng-span--1">
+                                            The Sea Explore
+                                        </span>
+                                    </h4>
+                                    <div class="card_details">
+                                        Details
+                                    </div>
                                 </div>
                                 <div class="card__side card__side--back card__side--back-1">
                                     Back
