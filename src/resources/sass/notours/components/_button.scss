@@ -41,6 +41,19 @@
         background-color: $color-white;
         color: $color-grey-dark;
     }
+    
+    &--white::after {
+        background-color: $color-white;
+    }
+    
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+    
+    &--green::after {
+        background-color: $color-primary;
+    }
 
     &::after {
         content: "";
@@ -53,10 +66,6 @@
         left: 0;
         z-index: -1;
         transition: all .4s;
-    }
-
-    &--white::after {
-        background-color: $color-white;
     }
 
     &:hover::after {
