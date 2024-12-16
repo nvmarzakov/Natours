@@ -120,6 +120,7 @@
                     <h2 class="heading-secondary">
                         Most popular tours
                     </h2>
+                </div>
 
                     <div class="row-custom">
                         <div class="col-1-of-3">
@@ -225,6 +226,28 @@
                     <a href="#" class="button button--green">Discover all tours</a>
                 </div>
 
+            </section>
+
+            <section class="section-stories">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        We make people geniunely happy
+                    </h2>
+                </div>
+
+                <div class="row-custom">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="{{ asset('images/nat-8.jpg') }}" alt="Person on a tour" class="story__img">
+                            <figcaption class="story__caption">Mary Smith</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque vitae fugiat deserunt commodi aliquid at reprehenderit voluptate dolorum obcaecati. Eligendi earum magnam ab, ratione a id temporibus cupid Eligendi earum magnam ab, ratione a id temporibus cupid Eligendi earum magnam ab, ratione a id temporibus cupid
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
         {{-- <section class="grid-test">
